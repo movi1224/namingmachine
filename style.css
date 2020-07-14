@@ -1,9 +1,12 @@
+html {height:100%;}
+
 body {
     background-color: black;
     background-position: center top;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     width: 60vw;
     background-image: url(undercover.jpg);
+    background-size: cover;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
@@ -12,24 +15,26 @@ body {
 
 h1{
     text-align:center;
-    font-size: 5vw;
+    padding: 2vw;
+    font-size: 2em;
     background-color:rgba(255,255,255,0.3);
 }
 
 ul {
     list-style-type: none;
-    font-size: 4vw;
+    font-size: 5vw;
     margin: 0;
     padding: 0;
     width: 60vw;
     background-color:rgba(1,1,1,0.5);
 }
 
+
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 6vw 10vw;
+    padding: 8vw 10vw;
     text-decoration: none;
 }
 
@@ -69,10 +74,13 @@ li a:hover {
     color: hotpink;
     font-style: italic;
 }
-footer{
-    padding:1vw;
+footer {
+    padding: 1vw;
     text-align: left;
     color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer a {
