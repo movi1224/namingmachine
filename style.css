@@ -3,10 +3,10 @@ html {height:100%;}
 body {
     background-color: black;
     background-position: center top;
-    background-repeat: repeat;
+    background-repeat: repeat-y;
     width: 60vw;
     background-image: url(undercover.jpg);
-    background-size: cover;
+    background-size: auto;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
@@ -15,14 +15,14 @@ body {
 
 h1{
     text-align:center;
-    padding: 2vw;
-    font-size: 2em;
+    padding: 3vw;
+    font-size: 40px;
     background-color:rgba(255,255,255,0.3);
 }
 
 ul {
     list-style-type: none;
-    font-size: 5vw;
+    font-size: 4vw;
     margin: 0;
     padding: 0;
     width: 60vw;
@@ -34,7 +34,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 8vw 10vw;
+    padding: 10% 10vw;
     text-decoration: none;
 }
 
@@ -68,21 +68,24 @@ li a:hover {
 
 #name{
     position:absolute;
-    font-size: 5vw;
-    z-indent: 2;
+    font-size: 6vw;
+    font-style: italic;
+    font-weigt: bold;
+    transform: scaleY(1.6);
+    z-index: 2;
     float:left;
     color: hotpink;
-    font-style: italic;
 }
+
 footer {
     padding: 1vw;
     text-align: left;
-    color: white;
-    position: absolute;
+    color: lightslategrey;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
 
 footer a {
-    color: white;
+    color: lightslategrey;
 }

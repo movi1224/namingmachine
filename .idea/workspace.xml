@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="071e7d30-ccc0-4d9d-bc9e-bf282fee7209" name="Default Changelist" comment="" />
+    <list default="true" id="071e7d30-ccc0-4d9d-bc9e-bf282fee7209" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/name_en.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/name.html" beforeDir="false" afterPath="$PROJECT_DIR$/name_cn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/step10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,6 +44,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,12 +63,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="name.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/proj1/name.html" useBuiltInWebServerPort="true">
+    <configuration name="name_en.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/proj1/name_en.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.name.html" />
+        <item itemvalue="JavaScript Debug.name_en.html" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594547050767</updated>
-      <workItem from="1594547052627" duration="11279000" />
+      <workItem from="1594547052627" duration="13994000" />
     </task>
     <task id="LOCAL-00001" summary="h1 size change">
       <created>1594719954152</created>
@@ -101,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594721870185</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="prototype 1">
+      <created>1594722020469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594722020469</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +140,7 @@
     <MESSAGE value="h1 size change" />
     <MESSAGE value="device support" />
     <MESSAGE value="Size change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Size change" />
+    <MESSAGE value="prototype 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="prototype 1" />
   </component>
 </project>
