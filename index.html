@@ -2,6 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        function loadCSS() {
+    if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|wOSBrowser|BrowserNG|WebOS)/i))) {
+    document.write('<link href="phone_style.css" rel="stylesheet" type="text/css" media="screen" />');
+    //alert("shouji");
+    }
+    else {
+    //alert("diannao");
+    document.write('<link href="desktop_style.css" rel="stylesheet" type="text/css" media="screen" />');
+    }
+    }
+    loadCSS();
+    </script>
     <title>My first project</title>
     <link rel="stylesheet" href="style.css">
 

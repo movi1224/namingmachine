@@ -1,12 +1,12 @@
 html {height:100%;}
 
 body {
+    background-image: url(bg_phone2.gif);
     background-color: black;
     background-position: center top;
-    background-repeat: repeat-y;
-    width: 60vw;
-    background-image: url(undercover.jpg);
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vw;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
@@ -16,16 +16,16 @@ body {
 h1{
     text-align:center;
     padding: 3vw;
-    font-size: 40px;
+    font-size: 2em;
     background-color:rgba(255,255,255,0.3);
 }
 
 ul {
     list-style-type: none;
-    font-size: 4vw;
+    font-size: 6vw;
     margin: 0;
     padding: 0;
-    width: 60vw;
+    width: 80vw;
     background-color:rgba(1,1,1,0.5);
 }
 
@@ -42,25 +42,6 @@ li a:hover {
     background-color:rgba(255,255,255,0.3);
 }
 
-/*隐藏原input*/
-.upload-btn {
-    display: none;
-}
-/*美化自定义按钮*/
-.file-input-trigger {
-    padding: 1px 2px;
-    border-radius: 5px;
-    border: 1px solid rgba(255,255,255,0.3);
-    background-color: rgba(255,255,255,0.3);
-    outline: none;
-    color: #fff;
-    cursor: pointer;
-}
-
-.file-name {
-    color: white;
-}
-
 #img{
     width: 50vw;
     float: right;
@@ -68,12 +49,11 @@ li a:hover {
 
 #name{
     position:absolute;
-    font-size: 6vw;
-    font-style: italic;
-    font-weigt: bold;
-    transform: scaleY(1.6);
+    font-size: 8vw;
+    font-weight: bold;
     z-index: 2;
     float:left;
+    text-shadow: 0 0 2px white;
     color: hotpink;
 }
 

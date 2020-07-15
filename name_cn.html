@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        function loadCSS() {
+            if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|wOSBrowser|BrowserNG|WebOS)/i))) {
+                document.write('<link href="phone_style.css" rel="stylesheet" type="text/css" media="screen" />');
+            }
+            else {
+                document.write('<link href="desktop_style.css" rel="stylesheet" type="text/css" media="screen" />');
+            }
+        }
+        loadCSS();
+    </script>
     <title>Naming Machine</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>高科技亚文化起名器</h1>
@@ -21,9 +31,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
     <script>
-        var list_a =["狂拽","超时空","电光","高精尖", "革命"]
-        var list_b =["死库水", "电磁", "菠萝", "工装", "食屎" ]
-        var list_c =["飞行兵","小鹿","侠","驴","公主"]
+        var list_a =["冰淇淋","超時空","電光","高科技", "革命"]
+        var list_b =["激光", "死庫水", "菠蘿", "工裝", "暗黑"]
+        var list_c =["飛行兵","小鹿","俠","小驴","特工"]
 
 
         function getPic(){

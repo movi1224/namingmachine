@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        function loadCSS() {
+            if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|wOSBrowser|BrowserNG|WebOS)/i))) {
+                document.write('<link href="phone_style.css" rel="stylesheet" type="text/css" media="screen" />');
+            }
+            else {
+                document.write('<link href="desktop_style.css" rel="stylesheet" type="text/css" media="screen" />');
+            }
+        }
+        loadCSS();
+    </script>
     <title>Naming Machine</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>High-tech Subculture Naming Machine</h1>
@@ -21,10 +31,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
     <script>
-        var list_a =["Dope","Swaggy","Hyperspace","Pineapple", "Watermelon"]
-        var list_b =["Stupid", "Princess", "Socks", "Queen", "Villain" ]
-
-
+        var list_a =["Drunk","Insulin","Hyperspace","Pineapple","Watermelon"]
+        var list_b =["Assassin", "Princess", "Socks", "Donkey", "Villain" ]
 
         function getPic(){
             var reader=new FileReader();
